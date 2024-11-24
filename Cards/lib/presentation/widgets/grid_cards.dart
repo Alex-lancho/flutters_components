@@ -175,8 +175,13 @@ class GridCards extends StatelessWidget {
                       ),
                     );
                   },
-                  icon: const Icon(Icons.add_shopping_cart, size: 16),
-                  label: const Text('Agregar'),
+                  icon: const Icon(
+                    Icons.add_shopping_cart,
+                    size: 16,
+                    color: Color.fromARGB(255, 0, 0, 0),
+                  ),
+                  label:
+                      const Text('Agregar', style: TextStyle(color: Color.fromARGB(255, 0, 0, 0))),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.orange,
                     shape: RoundedRectangleBorder(
