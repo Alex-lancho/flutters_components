@@ -17,7 +17,7 @@ class ImageCard extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.vertical(top: Radius.circular(15.0)),
               child: Image.network(
-                'https://via.placeholder.com/400x200',
+                'https://media.istockphoto.com/id/1409236261/es/foto/alimentaci%C3%B3n-saludable-antecedentes-de-alimentaci%C3%B3n-saludable-frutas-verduras-bayas.jpg?s=612x612&w=0&k=20&c=HV0f9edLCsmHyms0uBy1yQwJzdWkVGLYzyKeA65qEDE=',
                 fit: BoxFit.cover,
               ),
             ),
